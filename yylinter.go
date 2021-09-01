@@ -1,4 +1,4 @@
-package yyimport
+package yylinter
 
 import (
 	"bufio"
