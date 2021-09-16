@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/blackbinbinbinbin/yylinter"
+	"github.com/blackbinbinbinbin/yylinter/pkg/analyzer"
 	"golang.org/x/tools/go/analysis/singlechecker"
 )
 
 func main() {
-	singlechecker.Main(yyimport.Analyzer)
+	singlechecker.Main(analyzer.Analyzer)
 }
